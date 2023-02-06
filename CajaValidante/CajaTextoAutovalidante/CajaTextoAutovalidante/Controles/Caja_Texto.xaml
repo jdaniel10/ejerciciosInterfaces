@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="CajaTextoAutovalidante.Controles.Caja_Texto"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CajaTextoAutovalidante.Controles"
+             mc:Ignorable="d" Height="208" Width="590">
+    <Grid Margin="0,26,308,38">
+        <TextBox x:Name="TextBoxClasica" HorizontalAlignment="Left" Margin="43,92,0,0" Text="&#xD;&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" Height="42"/>
+        <Label x:Name="labelError" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="43,47,0,0" VerticalAlignment="Top" Width="174"/>
+    </Grid>
+</UserControl>

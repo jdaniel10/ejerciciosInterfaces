@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="CalculoMensualidad.Mensualidad.Mensualidad"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CalculoMensualidad.Mensualidad"
+             mc:Ignorable="d" Width="524" Height="184">
+    <Grid>
+        <TextBox x:Name="TextBoxPrecio" HorizontalAlignment="Left" Margin="60,48,0,0" Text="&#xD;&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="ComboBoxMeses" HorizontalAlignment="Left" Margin="60,110,0,0" VerticalAlignment="Top" Width="120" Height="38"/>
+        <Label x:Name="LabelMensualidad" Content="Label" HorizontalAlignment="Left" Margin="262,52,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.001,-0.539" Width="162"/>
+        <Border BorderThickness="1" BorderBrush="Black"/>
+
+    </Grid>
+</UserControl>
